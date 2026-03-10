@@ -18,6 +18,7 @@ const Navbar = () => {
   const navLinks = [
     { name: 'Home', path: '#home' },
     { name: 'About', path: '#about' },
+    { name: 'Education', path: '#education' },
     { name: 'Skills', path: '#skills' },
     { name: 'Projects', path: '#projects' },
     { name: 'Contact', path: '#contact' },
@@ -41,7 +42,8 @@ const Navbar = () => {
       <div className="nav-actions flex items-center gap-4">
         <div className="social-links flex items-center gap-4 desktop-only">
           <a href="https://github.com/amanraj2205" target="_blank" rel="noreferrer" aria-label="GitHub"><Github size={20} /></a>
-          <a href="#" target="_blank" rel="noreferrer" aria-label="LinkedIn"><Linkedin size={20} /></a>
+          <a href="https://linkedin.com/in/amanraj2205" target="_blank" rel="noreferrer" aria-label="LinkedIn"><Linkedin size={20} /></a>
+          <a href='https://x.com/amanraj2205' target="_blank" rel="noreferrer" aria-label="X"><X size={20} /></a>
         </div>
         
         <button className="mobile-menu-btn" onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}>
@@ -64,8 +66,8 @@ const Navbar = () => {
           ))}
           <div className="social-links flex items-center gap-4 mt-4">
             <a href="https://github.com/amanraj2205" target="_blank" rel="noreferrer"><Github size={24} /></a>
-            <a href="#" target="_blank" rel="noreferrer"><Linkedin size={24} /></a>
-            <a href="mailto:contact@example.com"><Mail size={24} /></a>
+            <a href="https://linkedin.com/in/amanraj2205" target="_blank" rel="noreferrer"><Linkedin size={24} /></a>
+            <a href='https://x.com/amanraj2205' target="_blank" rel="noreferrer"><X size={24} /></a>
           </div>
         </div>
       )}

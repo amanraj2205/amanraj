@@ -1,0 +1,41 @@
+# Portfolio Website Implementation Walkthrough
+
+## Overview
+
+Successfully built a modern, responsive, dark-themed personal portfolio website using React, Vite, and vanilla CSS. The application is highly visual, relying on glassmorphism and smooth framer-motion animations to deliver a premium user experience.
+
+## Components Implemented
+
+The application is structured as a single-page app (SPA) with smooth scrolling:
+
+1. **Navigation ([Navbar](file:///C:/Users/araj2/Desktop/Project/protfoile_website/src/components/Navbar.jsx#6-75))**: A sticky, blur-backed header with desktop and mobile navigation menus, plus quick links to GitHub and LinkedIn.
+2. **Hero ([Hero](file:///C:/Users/araj2/Desktop/Project/protfoile_website/src/components/Hero.jsx#6-62))**: An engaging initial viewport with a prominent dynamic headline emphasizing "Full-Stack & GenAI", decorative background floating glows, and call-to-action buttons.
+3. **About & Skills ([AboutSkills](file:///C:/Users/araj2/Desktop/Project/protfoile_website/src/components/AboutSkills.jsx#33-84))**: A grid layout grouping technical skills into four primary domains:
+   - Frontend (React, etc.)
+   - Backend & Database (Node.js, Postgres, etc.)
+   - core & DSA (C++, Algorithms, OOP)
+   - GenAI & Tools (LLM Integration, LangChain)
+4. **Projects ([Projects](file:///C:/Users/araj2/Desktop/Project/protfoile_website/src/components/Projects.jsx#33-96))**: A showcase section with hover-revealed overlay links for GitHub and Live Demos, featuring projects like an AI Chatbot and an Algorithm Visualizer.
+5. **Contact ([Contact](file:///C:/Users/araj2/Desktop/Project/protfoile_website/src/components/Contact.jsx#6-99))**: A functional layout containing contact information cards (Email, Phone, Location) alongside a professional contact form.
+6. **Footer ([Footer](file:///C:/Users/araj2/Desktop/Project/protfoile_website/src/components/Footer.jsx#4-27))**: Standard footer with copyright and social links.
+
+## Design Highlights
+
+- **Aesthetic**: Deep dark mode (`--bg-primary: #0a0a0f`) with Electric Blue (`#3b82f6`) and Neon Purple (`#8b5cf6`) accents.
+- **Glassmorphism**: Extensively used `backdrop-filter` and semi-transparent backgrounds to create depth for cards and the navigation bar.
+- **Animations**: Integrated `framer-motion` for scroll-triggered reveal animations.
+
+## Verification
+
+- The React application runs locally on Vite.
+- A Browser Subagent confirmed the rendering intent, including the layout and hover states.
+- The repository was initialized as a git repository and successfully linked/pushed to the remote origin (`amanraj2205/Class_Project`).
+- Production bundles were built successfully using `npm run build`.
+
+## Visual Result
+
+Here is a glimpse of the final application:
+
+![Hero Section](C:\Users\araj2\.gemini\antigravity\brain\66c09d2e-499e-49d8-9370-81dba8db5af4\portfolio_hero_section_1773164311616.png)
+
+![Projects Section](C:\Users\araj2\.gemini\antigravity\brain\66c09d2e-499e-49d8-9370-81dba8db5af4\portfolio_projects_section_1773164322583.png)
