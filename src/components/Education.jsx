@@ -52,6 +52,10 @@ const Education = () => {
                 <span>Batch: 2024 - 2028</span>
               </div>
               <div className="meta-item flex items-center gap-2">
+                <BookOpen size={16} className="text-secondary-icon" />
+                <span>CGPA: 8.5</span>
+              </div>
+              <div className="meta-item flex items-center gap-2">
                 <MapPin size={16} className="text-secondary-icon" />
                 <span>Kukas, Jaipur</span>
               </div>

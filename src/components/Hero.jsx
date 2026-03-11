@@ -34,7 +34,7 @@ const Hero = () => {
           transition={{ duration: 0.5, delay: 0.2 }}
           className="hero-subtitle mb-8"
         >
-          Hi, I'm Aman. I specialize in React, Node.js, and GenAI integration, 
+          Hi, I'm Aman Raj. I specialize in React, Node.js, and GenAI integration, 
           with a strong foundation in Data Structures and Algorithms in C++.
         </motion.p>
 

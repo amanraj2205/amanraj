@@ -67,7 +67,7 @@ const Navbar = () => {
           <div className="social-links flex items-center gap-4 mt-4">
             <a href="https://github.com/amanraj2205" target="_blank" rel="noreferrer"><Github size={24} /></a>
             <a href="https://linkedin.com/in/amanraj2205" target="_blank" rel="noreferrer"><Linkedin size={24} /></a>
-            <a href='https://x.com/amanraj2205' target="_blank" rel="noreferrer"><X size={24} /></a>
+            <a href='https://x.com/amanraj220' target="_blank" rel="noreferrer"><X size={24} /></a>
           </div>
         </div>
       )}

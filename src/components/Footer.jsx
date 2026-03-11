@@ -1,5 +1,5 @@
 import React from 'react';
-import { Github, Linkedin, Mail, Heart } from 'lucide-react';
+import { Github, Linkedin, Email, Heart,X } from 'lucide-react';
 
 const Footer = () => {
   return (
@@ -13,7 +13,8 @@ const Footer = () => {
         <div className="flex items-center gap-6" style={{ marginBottom: '1rem' }}>
           <a href="https://github.com/amanraj2205" target="_blank" rel="noreferrer" style={{ color: 'var(--text-secondary)' }}><Github size={24} /></a>
           <a href="#" target="_blank" rel="noreferrer" style={{ color: 'var(--text-secondary)' }}><Linkedin size={24} /></a>
-          <a href="mailto:contact@example.com" style={{ color: 'var(--text-secondary)' }}><Mail size={24} /></a>
+          <a href="mailto:contact@example.com" style={{ color: 'var(--text-secondary)' }}><Email size={24} /></a>
+          <a href="https://x.com/amanraj220" target="_blank" rel="noreferrer" style={{ color: 'var(--text-secondary)' }}><X size={24} /></a>
         </div>
         
         <p style={{ color: 'var(--text-tertiary)', textAlign: 'center', fontSize: '0.9rem' }}>

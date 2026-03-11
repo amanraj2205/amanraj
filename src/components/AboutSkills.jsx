@@ -8,7 +8,7 @@ const skills = [
     category: "Frontend",
     icon: <Code size={24} />,
     color: "var(--accent-primary)",
-    items: ["React.js", "JavaScript/ES6+", "HTML5/CSS3", "Framer Motion", "Tailwind/Vanilla CSS"]
+    items: ["React.js", "JavaScript", "HTML5/CSS3", "Tailwind/Vanilla CSS","Bootstrap"]
   },
   {
     category: "Backend & DB",
@@ -20,13 +20,13 @@ const skills = [
     category: "core & DSA",
     icon: <Database size={24} />,
     color: "var(--accent-warning)",
-    items: ["C++", "Data Structures", "Algorithms", "Object Oriented Programming"]
+    items: ["C++", "Data Structures", "Algorithms", "Object Oriented Programming","Operating System","Computer Networks"]
   },
   {
     category: "GenAI & Tools",
     icon: <BrainCircuit size={24} />,
     color: "var(--accent-secondary)",
-    items: ["LLM Integration", "LangChain", "Prompt Engineering", "Git/GitHub", "Docker"]
+    items: ["Python", "LLM Integration", "LangChain", "Prompt Engineering", "Git/GitHub", "Docker"]
   }
 ];
 
