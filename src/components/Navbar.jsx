@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import { Code2, Menu, X, Github, Linkedin, Mail } from 'lucide-react';
+import { Code2, Menu, X, Github, Linkedin} from 'lucide-react';
 import './Navbar.css';
 
 const Navbar = () => {
