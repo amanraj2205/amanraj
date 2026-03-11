@@ -43,7 +43,7 @@ const Navbar = () => {
         <div className="social-links flex items-center gap-4 desktop-only">
           <a href="https://github.com/amanraj2205" target="_blank" rel="noreferrer" aria-label="GitHub"><Github size={20} /></a>
           <a href="https://linkedin.com/in/amanraj2205" target="_blank" rel="noreferrer" aria-label="LinkedIn"><Linkedin size={20} /></a>
-          <a href='https://x.com/amanraj2205' target="_blank" rel="noreferrer" aria-label="X"><X size={20} /></a>
+          <a href='https://x.com/amanraj220' target="_blank" rel="noreferrer" aria-label="X"><X size={20} /></a>
         </div>
         
         <button className="mobile-menu-btn" onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}>

@@ -12,8 +12,8 @@ const Footer = () => {
       <div className="container flex flex-col items-center justify-center gap-4">
         <div className="flex items-center gap-6" style={{ marginBottom: '1rem' }}>
           <a href="https://github.com/amanraj2205" target="_blank" rel="noreferrer" style={{ color: 'var(--text-secondary)' }}><Github size={24} /></a>
-          <a href="#" target="_blank" rel="noreferrer" style={{ color: 'var(--text-secondary)' }}><Linkedin size={24} /></a>
-          <a href="mailto:contact@example.com" style={{ color: 'var(--text-secondary)' }}><Mail size={24} /></a>
+          <a href="https://www.linkedin.com/in/amanraj2205/" target="_blank" rel="noreferrer" style={{ color: 'var(--text-secondary)' }}><Linkedin size={24} /></a>
+          <a href="mailto:amanraj22052006@gmail.com" style={{ color: 'var(--text-secondary)' }}><Mail size={24} /></a>
           <a href="https://x.com/amanraj220" target="_blank" rel="noreferrer" style={{ color: 'var(--text-secondary)' }}><X size={24} /></a>
         </div>
         
