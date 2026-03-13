@@ -27,6 +27,14 @@ const projects = [
     github: "https://github.com/amanraj2205",
     demo: "#",
     image: "https://images.unsplash.com/photo-1504639725590-34d0984388bd?auto=format&fit=crop&q=80&w=800&h=500"
+  },
+  {
+    title: "Stock Market Dashboard",
+    description: "Real-time stock monitoring application with interactive charts, financial news integration, and portfolio tracking features.",
+    tags: ["React", "Chart.js", "Financial APIs", "Firebase"],
+    github: "https://github.com/amanraj2205",
+    demo: "#",
+    image: "https://images.unsplash.com/photo-1611974717482-58a00a9d1872?auto=format&fit=crop&q=80&w=800&h=500"
   }
 ];
 
@@ -34,7 +42,7 @@ const Projects = () => {
   return (
     <section id="projects" className="projects-section section container">
       <div className="section-header text-center mb-12">
-        <motion.h2 
+        <motion.h2
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
@@ -42,7 +50,7 @@ const Projects = () => {
         >
           Featured <span className="text-gradient">Projects</span>
         </motion.h2>
-        <motion.p 
+        <motion.p
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
@@ -74,11 +82,11 @@ const Projects = () => {
                 </a>
               </div>
             </div>
-            
+
             <div className="project-content">
               <h3 className="project-title">{project.title}</h3>
               <p className="project-desc">{project.description}</p>
-              
+
               <div className="project-tags flex gap-2 flex-wrap">
                 {project.tags.map(tag => (
                   <span key={tag} className="tag badge text-accent-primary" style={{ backgroundColor: 'var(--bg-tertiary)' }}>

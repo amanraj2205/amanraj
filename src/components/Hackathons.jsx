@@ -6,19 +6,35 @@ import './Hackathons.css';
 const hackathons = [
   {
     title: "Smart India Hackathon (SIH) 2024",
-    role: "Team Leader & Full Stack Developer",
-    project: "AI-Powered Financial Assistant",
+    role: "Full Stack Developer",
+    project: "KrishiVikash",
     location: "National Level",
-    achievement: "Finalist",
-    description: "Built a comprehensive financial literacy and assistance platform using React, Node.js, and integrating LLMs for real-time advice."
+    achievement: "Idea Submission Round",
+    description: "KrishiVikash is a gamified digital platform using AI, IoT, and satellite data to provide localized farming insights. It boosts yields and sustainability through multilingual accessibility and behavioral engagement."
   },
   {
-    title: "HackTheBox CyberHack",
-    role: "Backend Architect",
-    project: "SecureVault",
+    title: "Rajasthan Digifest X TiE Global Hackathon",
+    role: "Team Leader & Full Stack Developer",
+    project: "SupplyWater",
+    location: "Offline",
+    achievement: "Top 5%",
+    description: "SupplyWater helps farmers coordinate their irrigation schedules. By sharing information, they can manage water more efficiently and prevent conflicts."
+  },
+  {
+    title: "Google Solution Challenge 2025", 
+    role: "Frontend Developer",
+    project: "AgriTech",
     location: "Online",
-    achievement: "Top 20%",
-    description: "Developed a secure file sharing system with end-to-end encryption to solve data privacy challenges."
+    achievement: "Project Evaluation",
+    description: "Empowering Small and Marginal Farmers with AI-Driven Agricultural Solutions. Bulid a software for farmers to help them with their crops."
+  },
+  {
+    title: "Hack Arya Verse",
+    role: "Frontend Developer",
+    project: "AI Chatbot for Farmers",
+    location: "Offline",
+    achievement: "Top 10%",
+    description: "A chatbot that helps farmers to get information about their crops and the best way to take care of them."
   }
 ];
 
