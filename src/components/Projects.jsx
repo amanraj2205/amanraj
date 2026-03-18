@@ -18,7 +18,7 @@ const projects = [
     tags: ["React","Node.js", "Express", "Postgress", "JWT"],
     github: "https://github.com/amanraj2205/Student_Portal.git",
     demo: "#",
-    image: "../image/project/student_portal.png"
+    image: "https://drive.google.com/file/d/1vF41IPt-CTVbugkq_ghlc_9QLpByAwe3/view?usp=drive_link"
   },
   {
     title: "DSA Visualizer",
@@ -34,7 +34,7 @@ const projects = [
     tags: ["JavaScript", "React", "Mongodb","Express"],
     github: "https://github.com/amanraj2205/Agri_connect.git",
     demo: "#",
-    image: "../image/project/Agriconnect.png"
+    image: "https://drive.google.com/file/d/15NJx_zBGbRiEWn6EC0qS2aNAxNzK8QvJ/view?usp=drive_link"
   },
   {
     title: "Real Time Weather App",
@@ -42,7 +42,7 @@ const projects = [
     tags: ["HTML","CSS", "Javascript","OpenWeather API", "RestAPI"],
     github: "https://github.com/amanraj2205/weather-app-using-js.git",
     demo: "https://amanraj2205.github.io/weather-app-using-js/",
-    image: "../image/project/Weather.png"
+    image: "https://drive.google.com/file/d/1eLC7bYQRTceOuFBY8PoAqbUUWgb8Za5o/view?usp=drive_link"
   }
 ];
 
