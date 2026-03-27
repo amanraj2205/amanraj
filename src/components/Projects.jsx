@@ -14,27 +14,27 @@ const projects = [
   },
   {
     title: "Student Portal",
-    description: "Students benefit from a personalized dashboard and a unique public profile URL. The platform facilitates connections with Job opening via an auto-matching feature and an integrated AI chat system.",
+    description: "Students benefit from a personalized dashboard and a unique public profile URL. The platform facilitates student to show their profile and an integrated AI chat system for resume building, Indification of skills gap and interview preparation.",
     tags: ["React","Node.js", "Express", "Postgress", "JWT"],
-    github: "https://github.com/amanraj2205/Student_Portal.git",
-    demo: "#",
-    image: "https://drive.google.com/file/d/1vF41IPt-CTVbugkq_ghlc_9QLpByAwe3/view?usp=drive_link"
+    github: "https://github.com/amanraj2205/Project.git", 
+    demo: "https://project-eb8l.onrender.com/",
+    image: "https://res.cloudinary.com/dcconf1h6/image/upload/v1774615273/Screenshot_2026-03-27_181028_fcn0m1.png"
   },
-  {
-    title: "DSA Visualizer",
-    description: "Interactive web application to visualize complex Data Structures and Algorithms (like sorting and pathfinding) written in C++ and ported to WebAssembly.",
-    tags: ["C++", "WebAssembly", "React", "Algorithms"],
-    github: "https://github.com/amanraj2205/DSA_Visualizer.git",
-    demo: "#",
-    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxwckKUcOGcUnywTu5VbIuiIfpWhucBeLSmw&s"
-      },
+  // {
+  //   title: "DSA Visualizer",
+  //   description: "Interactive web application to visualize complex Data Structures and Algorithms (like sorting and pathfinding) written in C++ and ported to WebAssembly.",
+  //   tags: ["C++", "WebAssembly", "React", "Algorithms"],
+  //   github: "https://github.com/amanraj2205/DSA_Visualizer.git",
+  //   demo: "#",
+  //   image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxwckKUcOGcUnywTu5VbIuiIfpWhucBeLSmw&s"
+  //     },
   {
     title: "Agri-Connect",
     description: " A personal dashboard for farmers \nShopping for farmer products \nA section for buyers to purchase farm crops \n An AI Chatbot that provides answers to any queries related to this platform.", 
     tags: ["JavaScript", "React", "Mongodb","Express"],
     github: "https://github.com/amanraj2205/Agri_connect.git",
     demo: "#",
-    image: "https://drive.google.com/file/d/15NJx_zBGbRiEWn6EC0qS2aNAxNzK8QvJ/view?usp=drive_link"
+    image: "https://res.cloudinary.com/dcconf1h6/image/upload/v1774615623/Screenshot_2026-03-27_181621_k82wis.png"
   },
   {
     title: "Real Time Weather App",
@@ -42,7 +42,7 @@ const projects = [
     tags: ["HTML","CSS", "Javascript","OpenWeather API", "RestAPI"],
     github: "https://github.com/amanraj2205/weather-app-using-js.git",
     demo: "https://amanraj2205.github.io/weather-app-using-js/",
-    image: "https://drive.google.com/file/d/1eLC7bYQRTceOuFBY8PoAqbUUWgb8Za5o/view?usp=drive_link"
+    image: "https://res.cloudinary.com/dcconf1h6/image/upload/v1774374441/student_portals/projects/pljd1dsmxnborgr36alh.png"
   }
 ];
 

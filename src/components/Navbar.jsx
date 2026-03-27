@@ -37,6 +37,7 @@ const Navbar = () => {
         {navLinks.map((link) => (
           <a key={link.name} href={link.path} className="nav-link">{link.name}</a>
         ))}
+        <a href="/resume.pdf" download className="btn btn-outline btn-sm">Resume</a>
       </nav>
 
       {/* Social Links & Mobile Toggle */}
@@ -65,6 +66,14 @@ const Navbar = () => {
               {link.name}
             </a>
           ))}
+          <a 
+            href="/resume.pdf" 
+            download 
+            className="btn btn-outline w-full text-center"
+            onClick={() => setIsMobileMenuOpen(false)}
+          >
+            Download Resume
+          </a>
           <div className="social-links flex items-center gap-4 mt-4">
             <a href="https://github.com/amanraj2205" target="_blank" rel="noreferrer"><Github size={24} /></a>
             <a href="https://linkedin.com/in/amanraj2205" target="_blank" rel="noreferrer"><Linkedin size={24} /></a>

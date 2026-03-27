@@ -1,5 +1,5 @@
 import React from 'react';
-import { ArrowRight, Terminal } from 'lucide-react';
+import { ArrowRight, Terminal, Download } from 'lucide-react';
 import { motion } from 'framer-motion';
 import './Hero.css';
 
@@ -46,6 +46,9 @@ const Hero = () => {
         >
           <a href="#projects" className="btn btn-primary flex items-center gap-2">
             View Projects <ArrowRight size={18} />
+          </a>
+          <a href="/resume.pdf" download className="btn btn-outline flex items-center gap-2">
+            Resume <Download size={18} />
           </a>
           <a href="#contact" className="btn btn-outline">
             Contact Me
