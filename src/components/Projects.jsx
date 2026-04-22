@@ -5,41 +5,33 @@ import './Projects.css';
 
 const projects = [
   {
-    title: "AI-Powered Chatbot",
-    description: "A generative AI chatbot built with React, Node.js, and OpenAI API, featuring context-aware conversations and natural language processing.",
-    tags: ["React", "FastAPI", "OpenAI", "Tailwind CSS","RAG","Python"],
-    github: "https://github.com/amanraj2205",
+    title: "NextHire.ai: AI Interview Platform",
+    description: "End-to-end MERN application that leverages Gemini 3 Flash to generate AI interview strategy reports and dynamic ATS-friendly resumes via Puppeteer.",
+    tags: ["MERN Stack", "Google GenAI", "Puppeteer", "Zod", "MongoDB"],
+    github: "https://github.com/amanraj2205/NextHire.ai.git",
     demo: "#",
-    image: "https://images.unsplash.com/photo-1762330465857-07e4c81c0dfa?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fGFpJTIwY2hhdHxlbnwwfHwwfHx8MA%3D%3D"
+    image: "https://res.cloudinary.com/dcconf1h6/image/upload/v1776858521/Screenshot_2026-04-22_171756_wgh5jk.png"
   },
   {
-    title: "Student Portal",
-    description: "Students benefit from a personalized dashboard and a unique public profile URL. The platform facilitates student to show their profile and an integrated AI chat system for resume building, Indification of skills gap and interview preparation.",
-    tags: ["React","Node.js", "Express", "Postgress", "JWT"],
-    github: "https://github.com/amanraj2205/Project.git", 
+    title: "Student Project Portal",
+    description: "A comprehensive portfolio builder that integrates GitHub activity, manages project media via Cloudinary, and generates shareable public URLs.",
+    tags: ["React js", "PostgreSQL", "Prisma", "Node.js", "Cloudinary"],
+    github:"https://github.com/amanraj2205/Student-Portal.git",
     demo: "https://project-eb8l.onrender.com/",
     image: "https://res.cloudinary.com/dcconf1h6/image/upload/v1774615273/Screenshot_2026-03-27_181028_fcn0m1.png"
   },
-  // {
-  //   title: "DSA Visualizer",
-  //   description: "Interactive web application to visualize complex Data Structures and Algorithms (like sorting and pathfinding) written in C++ and ported to WebAssembly.",
-  //   tags: ["C++", "WebAssembly", "React", "Algorithms"],
-  //   github: "https://github.com/amanraj2205/DSA_Visualizer.git",
-  //   demo: "#",
-  //   image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxwckKUcOGcUnywTu5VbIuiIfpWhucBeLSmw&s"
-  //     },
   {
-    title: "Agri-Connect",
-    description: " A personal dashboard for farmers \nShopping for farmer products \nA section for buyers to purchase farm crops \n An AI Chatbot that provides answers to any queries related to this platform.", 
-    tags: ["JavaScript", "React", "Mongodb","Express"],
-    github: "https://github.com/amanraj2205/Agri_connect.git",
+    title: "Krishi Sahayak: AI Agriculture Ecosystem",
+    description: "Advanced microservices-based platform providing farmers with AI-driven market rates, crop yield tracking, and seasonal financial analytics.",
+    tags: ["React", "Node.js", "MongoDB", "Gemini AI"],
+    github: "https://github.com/amanraj2205/AgriConnect.git",
     demo: "#",
     image: "https://res.cloudinary.com/dcconf1h6/image/upload/v1774615623/Screenshot_2026-03-27_181621_k82wis.png"
   },
   {
-    title: "Real Time Weather App",
-    description: "A modern, responsive weather application built with vanilla JavaScript that provides real-time weather information for any city worldwide.",
-    tags: ["HTML","CSS", "Javascript","OpenWeather API", "RestAPI"],
+    title: "Real-Time Weather App",
+    description: "Modern, responsive weather application built with vanilla JavaScript using the OpenWeatherMap API for live global weather tracking.",
+    tags: ["JavaScript", "OpenWeatherMap API", "HTML5", "CSS3"],
     github: "https://github.com/amanraj2205/weather-app-using-js.git",
     demo: "https://amanraj2205.github.io/weather-app-using-js/",
     image: "https://res.cloudinary.com/dcconf1h6/image/upload/v1774374441/student_portals/projects/pljd1dsmxnborgr36alh.png"

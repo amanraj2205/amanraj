@@ -37,7 +37,7 @@ const Navbar = () => {
         {navLinks.map((link) => (
           <a key={link.name} href={link.path} className="nav-link">{link.name}</a>
         ))}
-        <a href="/resume.pdf" download className="btn btn-outline btn-sm">Resume</a>
+        <a href="/Aman Resume.pdf" download className="btn btn-outline btn-sm">Resume</a>
       </nav>
 
       {/* Social Links & Mobile Toggle */}
